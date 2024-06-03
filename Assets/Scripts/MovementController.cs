@@ -95,7 +95,7 @@ public class MovementController : MonoBehaviour
 
         GameObject ground = collision.gameObject;
 
-        if(ground.TryGetComponent<MovingPlatform>(out var movingPlatform))
+        if(ground.TryGetComponent<ObjectMovement>(out var movingPlatform))
         {
             transform.parent = movingPlatform.transform;
         }

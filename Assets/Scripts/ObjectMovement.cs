@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class ObjectMovement : MonoBehaviour
 {
     [SerializeField] private Transform startPos;
     [SerializeField] private Transform finishPos;
